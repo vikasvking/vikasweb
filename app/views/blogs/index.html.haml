@@ -11,9 +11,9 @@
               %div.post
                 .row
                   .col-lg-8
-                    = link_to i.title,i
+                    = link_to i.title.upcase,i
                     %br
-                    = i.body
+                    = i.body[0..10]
                   .col-lg-4
                     = image_tag i.image.url(:thumb)
               %hr
