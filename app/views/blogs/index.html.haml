@@ -1,10 +1,29 @@
-%a#menu-toggle.btn.btn-default{:href => "#menu-toggle"} Toggle Menu
+%a#menu-toggle.btn.btn-default{:href => "#menu-toggle"} Menu
 #page-content-wrapper
   .container-fluid
     .row
       .col-lg-12
         %div.page-header
-          %h1 vikas
+          %h1 Welcome
+        .row
+          .col-lg-9
+            - @blog.each do |i|
+              %div.post
+                .row
+                  .col-lg-8
+                    = link_to i.title,i
+                    %br
+                    = i.body
+                  .col-lg-4
+                    = image_tag i.image.url(:thumb)
+              %hr
+          .col-lg-3.post
+            .header Recent Post
+            - @blog.each do |i|
+              %ul
+                %li= i.title
+                    
+              
   / /#page-content-wrapper
 / /#wrapper
 / jQuery

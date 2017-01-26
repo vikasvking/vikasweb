@@ -16,3 +16,33 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Bangers|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+h1{
+  color: #39b1c6;
+  font-family: 'Righteous';
+  font-size: 6em;
+
+}
+.post{
+  font-family: 'Courgette';
+  background-color: #25242c;
+  color: #C9e1c1;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.profile{
+  height:100px;
+  width:100px;
+  border-radius: 50px;
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+}
+hr{
+  border:0;
+  height: 30px;
+  background-color: #32313b;
+  width: 120% !important;
+  margin: 0;
+}

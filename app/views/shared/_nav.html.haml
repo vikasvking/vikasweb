@@ -1,14 +1,19 @@
 #sidebar-wrapper
-  %ul.sidebar-nav
-    %li.sidebar-brand
-      %a{:href => "#"}V
-          
-    %li
-      %a{:href => "#"} About me
-    %li
-      %a{:href => "#"} Blog
-    %li
-      %a{:href => "#"} LeetCode
-    %li
-      %a{:href => "#"} Contact
+ 
+    
+  .row
+
+    %ul.sidebar-nav
+      %li.sidebar-brand
+        = image_tag "1.jpg",:class=>"profile"
+        %a{:href => "#"}Vikas
+
+      %li
+        %a{:href => "#"} All blog
+      %li
+        %a{:href => "#"} Leetcode
+      %li
+        %a{:href => "#"} About
+      %li
+        %a{:href => "#"} Contact
     

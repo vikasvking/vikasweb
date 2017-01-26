@@ -1,0 +1,21 @@
+%a#menu-toggle.btn.btn-default{:href => "#menu-toggle"} Menu
+= link_to "BACK",root_path,:class=>"btn btn-default"
+
+#page-content-wrapper
+  .container-fluid
+    .row
+      .col-lg-12
+        %div.page-header
+          %h1= @blog.title
+        .post
+          .row
+            .col-lg-9
+              = @blog.body
+            .col-lg-3
+              = image_tag @blog.image.url(:medium)
+  
+:javascript
+  $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+  });
