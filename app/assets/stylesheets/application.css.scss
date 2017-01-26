@@ -20,15 +20,15 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers|Righteous');
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 h1{
-  color: #39b1c6;
+  color: white !important;
   font-family: 'Righteous';
   font-size: 6em;
 
 }
 .post{
   font-family: 'Courgette';
-  background-color: #25242c;
-  color: #C9e1c1;
+  background-color: #d0d0d0;
+  color: black;
   font-size: 1.5em;
   padding: 10px;
 }
@@ -42,7 +42,7 @@ h1{
 hr{
   border:0;
   height: 30px;
-  background:url(./back.svg);
+ 
   width: 100% !important;
   margin: 0;
 }
