@@ -17,7 +17,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-  
+
     height: 100%;
 }
 
@@ -48,6 +48,8 @@
     width: 100%;
     position: absolute;
     padding: 15px;
+    margin:
+    
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -64,7 +66,7 @@
     margin: 0;
     padding: 10;
     list-style: none;
-    font-family: 'Yonone Kaffeesatz', sans-serif;
+    font-family: 'Raleway', sans-serif;
     float: center;
 }
 
@@ -93,7 +95,7 @@
 }
 
 .sidebar-nav > .sidebar-brand {
-    
+
     font-size: 18px;
     line-height: 60px;
 }
