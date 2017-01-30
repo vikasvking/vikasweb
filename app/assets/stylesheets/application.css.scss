@@ -32,6 +32,10 @@ h1{
   color: black;
   font-size: 1.5em;
   padding: 10px;
+  border-radius: 3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+
 }
 .profile{
   height:100px;
@@ -40,10 +44,4 @@ h1{
   -moz-border-radius:50px;
   -webkit-border-radius:50px;
 }
-hr{
-  border:0;
-  height: 30px;
 
-  width: 100% !important;
-  margin: 0;
-}
